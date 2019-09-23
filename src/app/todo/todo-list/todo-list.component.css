@@ -1,0 +1,30 @@
+.list {
+    width: 100%;
+    
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item-description {
+    width: 80%;
+}
+
+.completed {
+    color: green;
+    outline: none;
+
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+    font-style: italic;
+}
+
+.delete {
+    color: gray;
+
+}
